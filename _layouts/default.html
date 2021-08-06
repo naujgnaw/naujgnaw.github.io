@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     
   </head>
-  <body>
+  <body><!--
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
         <h1>{{ site.title | default: site.github.repository_name }}</h1> 
@@ -44,7 +44,7 @@
       <p>copyright or whatever. {{ site.copyright | default: "copyright not found in _config.yml" }}</p>
     </footer>
     
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+   
 
     {% if site.google_analytics %}
       <script>
@@ -56,6 +56,38 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+    -->
+    <main class="container {% if site.color_scheme %}{{ site.color_scheme }}{% else %}avocado{% endif %}">
+      {% if page.title == "Home" %}
+      <header class="fadeInLeft animated">
+      {% else %}
+      <header>
+      {% endif %}
+        <div>
+          <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
+             style="background-image: url({{ 'https://www.logo.com/c.png' | relative_url }});"></a>
+        </div>
+
+        {% include navigation.html %}
+      </header>
+
+      {{ content }}
+
+      <footer>
+        <p>
+          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en_US">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+        </p>
+      </footer>
+    </main>
+  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <!-- scripts -->
+    <script src="{{ '/assets/js/fluidvids.min.js' | relative_url }}"></script>
+    <script>
+      fluidvids.init({
+        selector: ['iframe', 'object'],
+        players: ['www.youtube.com', 'player.vimeo.com']
+      });
+    </script>
   </body>
 
 </html>
