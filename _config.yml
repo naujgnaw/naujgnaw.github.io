@@ -1,19 +1,21 @@
 title      : 
 lang       : zh
-description: 
+description: 王卷
 copyright  : © 2021 naujgnaw All Rights Reserved
 
 
 permalink: pretty
 
 nav:
- - name: dreams
+ - name: 主页
+   link: /
+ - name: 梦
    link: /dreams
- - name: sandbox
+ - name: 箱
    link: /sandbox
- - name: sandbox
-   link: /sandbox
- - name: notebook
+ - name: 林
+   link: /forest
+ - name: 书
    link: /notebook
- - name: schedule
+ - name: 项
    link: /schedule
