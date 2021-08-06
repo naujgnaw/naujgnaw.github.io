@@ -2,6 +2,8 @@ title      :
 lang       : zh
 description: 
 copyright  : © 2018 - 2021 naujgnaw All Rights Reserved
+
+permalink: /:title
 collections:
   - dreams
   - sandbox
