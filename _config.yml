@@ -1,19 +1,11 @@
 title      : 
 lang       : zh
 description: 
-copyright  : © 2018 - 2021 naujgnaw All Rights Reserved
+copyright  : © 2021 naujgnaw All Rights Reserved
 
 
-include: ['_posts/_dreams', '_posts/_sandbox']
 permalink: pretty
-collections:
-  dreams:
-    output: true
-    permalink: /:collection/:year/:month/:day/:title
-  sandbox:
-    output: true
-    permalink: /:collection/:year/:month/:day/:title
-collections_dir: col
+
 nav:
  - name: dreams
    link: /dreams
