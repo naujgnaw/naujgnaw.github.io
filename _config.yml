@@ -5,11 +5,15 @@ copyright  : © 2018 - 2021 naujgnaw All Rights Reserved
 
 permalink: pretty
 collections:
-  - dreams
-  - sandbox
+  dreams:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title
+  sandbox:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title
 collections_dir: col
 nav:
  - name: dreams
-   link: /dreams.html
+   link: /dreams
  - name: sandbox
-   link: /sandbox.html
+   link: /sandbox
