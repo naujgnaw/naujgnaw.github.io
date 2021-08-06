@@ -1,1 +1,10 @@
-theme: jekyll-theme-midnight
+title      : 
+lang       : zh
+description: 
+copyright  : © 2018 - 2021 naujgnaw All Rights Reserved
+
+nav:
+ - name: dreams
+   link: /dreams/
+ - name: sandbox
+   link: /sandbox/
