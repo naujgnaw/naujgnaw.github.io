@@ -4,7 +4,7 @@ description:
 copyright  : © 2018 - 2021 naujgnaw All Rights Reserved
 
 
-include: ['col/_dreams', 'col/_sandbox']
+include: ['_posts/_dreams', '_posts/_sandbox']
 permalink: pretty
 collections:
   dreams:
