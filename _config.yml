@@ -11,5 +11,9 @@ nav:
    link: /dreams
  - name: sandbox
    link: /sandbox
+ - name: sandbox
+   link: /sandbox
  - name: notebook
    link: /notebook
+ - name: schedule
+   link: /schedule
