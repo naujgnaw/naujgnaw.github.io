@@ -8,6 +8,6 @@ collections:
 collections_dir: col
 nav:
  - name: dreams
-   link: /dreams/
+   link: /dreams.html
  - name: sandbox
-   link: /sandbox/
+   link: /sandbox.html
