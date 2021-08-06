@@ -20,7 +20,6 @@ body {
   width:680px;
   margin:0 auto;
   background:#DEDEDE;
-  border-radius: 10px;
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
 }
 
@@ -51,7 +50,6 @@ strong {
 }
 
 header {
-  border-radius: 8px 8px 0 0;
   background:#C6EAFA;
   background:linear_gradient(#DDFBFC, #C6EAFA);
   position:relative;
@@ -101,9 +99,6 @@ header {
     right:20px;
     top:20px;
     padding:1px 0;
-    background:#5198DF;
-    background: linear_gradient(#77B9FB, #3782CD);
-    border-radius:8px;
     box-shadow: inset rgba(#fff, 0.45) 0 1px 0, inset rgba(#000, 0.2) 0 -1px 0;
     width:auto;
 
@@ -116,15 +111,13 @@ header {
       right:-3px;
       bottom:-4px;
       background:rgba(#000, 0.1);
-      border-radius: 8px;
       box-shadow: rgba(#000, 0.2) 0 -1px 0, inset rgba(#fff, 0.7) 0 -1px 0;
     }
 
     li {
       min-width:40px;
       float:left;
-      border-right:1px solid #3A7CBE;
-      border-radius:5px;
+      border-right:1px solid #ffffff;
       padding:0 5px 0 5px;
 
       &.single {
@@ -166,7 +159,6 @@ section {
   font-size:14px;
   border-top:1px solid #fff;
   background: linear_gradient(#fafafa, #DEDEDE 700px);
-  border-radius: 0 0 8px 8px;
   position:relative;
 }
 
