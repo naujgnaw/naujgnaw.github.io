@@ -154,10 +154,8 @@ section {
   padding:15px 20px 5px 20px;
   font-size:14px;
   position:relative;
-  .archive{
-    h2 {
-        border-bottom: 10px solid #9ac;
-    }
+  .archive h2{
+    border: 10px 10px 0 0 solid #9ac;
   }
 }
 
@@ -189,15 +187,15 @@ h3, h4, h5, h6 {
 }
 
 article {
-    margin-bottom:10px;
+  margin-bottom:10px;
 }
 
 blockquote {
-    font-family: serif;
-    margin:0 -20px 20px;
-    padding:15px 10px 1px 10px;
-    color:#eed99e;
-    background:rgba(rgb(255, 255, 255), 0.2);
+  font-family: 'Courier New', Courier, monospace;
+  margin:0 -20px 20px;
+  padding:15px 10px 1px 10px;
+  color:#eed99e;
+  background:rgba(rgb(255, 255, 255), 0.2);
 }
 
 img {
@@ -244,7 +242,7 @@ dt {
 }
 
 th {
-  color:#222;
+  color:rgb(204, 204, 204);
 }
 
 small {
