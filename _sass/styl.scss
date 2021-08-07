@@ -10,7 +10,7 @@ body {
   padding:50px 0;
   margin:0;
   font: 14px/1.5 "Open Sans", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif, Helvetica;
-  color:#aed1ff;
+  color:#ffffff;
   font-weight:350;
   min-height:100%;
   background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
@@ -209,7 +209,7 @@ img {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#f8f8f2;
+  color:#fffff1;
   font-size:14px;
   overflow-x:auto;
 }
@@ -221,7 +221,7 @@ pre {
   margin:0 20px 20px;
 
   code {
-    color:#f8f8f2;
+    color:#fffff1;
   }
 
   li & {
