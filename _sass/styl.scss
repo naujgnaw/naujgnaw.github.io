@@ -9,8 +9,8 @@ html {
 body {
   padding:50px 0;
   margin:0;
-  font:14px/1.5 "Open Sans", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif, Helvetica;
-  color:rgb(226, 203, 128);
+  font: 14px/1.5 "Open Sans", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif, Helvetica;
+  color:rgb(236, 226, 192);
   font-weight:350;
   min-height:100%;
   background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
@@ -155,7 +155,9 @@ section {
   font-size:14px;
   position:relative;
   .archive h2{
-    border: 10px 10px 0 0 solid #9ac;
+    border-bottom: 10px double #9ac;
+    border-left: 10px solid #9ac;
+    padding-left: 5px;
   }
 }
 
