@@ -10,7 +10,7 @@ body {
   padding:50px 0;
   margin:0;
   font: 14px/1.5 "Open Sans", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif, Helvetica;
-  color:rgb(236, 226, 192);
+  color:rgb(202, 236, 192);
   font-weight:350;
   min-height:100%;
   background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
@@ -151,7 +151,7 @@ header {
 }
 
 section {
-  padding:15px 20px 5px 20px;
+  padding:15px 0px 5px 20px;
   font-size:14px;
   position:relative;
   .archive h2{
@@ -195,8 +195,7 @@ article {
 
 blockquote {
   font-family: Arial, Helvetica, sans-serif;
-  margin:0 -20px 20px;
-  padding:15px 100px 1px 100px;
+  margin:0 20px 20px;
   color:#eed99e;
   background:rgba(rgb(255, 255, 255), 0.2);
 }
@@ -216,7 +215,7 @@ pre {
   padding:15px 10px 15px 10px;
   background: #3A3C42;
   color:#f8f8f2;
-  margin:0 -20px 20px;
+  margin:0 20px 20px;
 
   code {
     color:#f8f8f2;
