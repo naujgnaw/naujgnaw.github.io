@@ -186,6 +186,7 @@ h3, h4, h5, h6 {
 
 article {
     border-bottom:1px solid white; 
+    margin-bottom:5px;
 }
 
 blockquote {
@@ -296,10 +297,6 @@ footer {
       float:none;
     }
   }
-}
-
-.post-date{
-    border-bottom: 5px;
 }
 
 @media print, screen and (max-width:580px) {
