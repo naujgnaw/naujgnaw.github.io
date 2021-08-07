@@ -298,6 +298,10 @@ footer {
   }
 }
 
+.post-date{
+    border-bottom: 5px;
+}
+
 @media print, screen and (max-width:580px) {
   header ul {
     top: 11px;
