@@ -10,12 +10,12 @@ nav:
  - name: 主页
    link: /
  - name: 梦
-   link: /dreams
+   link: /dreams/
  - name: 箱
-   link: /sandbox
+   link: /sandbox/
  - name: 林
-   link: /forest
+   link: /forest/
  - name: 记
-   link: /notebook
+   link: /notebook/
  - name: 项
-   link: /schedule
+   link: /schedule/
