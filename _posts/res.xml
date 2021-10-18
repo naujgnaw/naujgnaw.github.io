@@ -1,0 +1,13 @@
+<toast>
+    <visual>
+       <binding template="ToastGeneric">
+            <text>通知</text>
+            <text>Toast Test</text>
+       </binding>
+    </visual>
+    <audio />
+    <actions>
+          <action content = "确定" arguments = "ok" />
+          <action content = "取消" arguments = "cancel" />
+    </actions>
+</toast>
