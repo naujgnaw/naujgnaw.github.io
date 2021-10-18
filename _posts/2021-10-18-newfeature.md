@@ -1,7 +1,6 @@
 ---
 tag: notebook
 ---
-<html>
 <head>
 
 <script type="text/javascript">
@@ -63,4 +62,3 @@ tag: notebook
 <button id='start-now' onclick="atoast()">开启今日提醒</button>
 
 </body>
-</html>
