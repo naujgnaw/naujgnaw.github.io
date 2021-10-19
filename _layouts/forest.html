@@ -5,6 +5,12 @@ title: pickup artist
 
 <section class="archive">
 {% for post in site.tags.forest %}
+{% if forloop.first %}
+
+<div class="archive-item fadeInDown animated">
+  <h2>{{ post.date | date: '%Y' }}</h2>
+  <div>
+{% else %}
 {% unless post.next %}
 
   {% unless forloop.first %}
@@ -38,6 +44,7 @@ title: pickup artist
 
 {% endif %}
 {% endunless %}
+{% endif %}
 
   <article>
     <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title }}</a>

@@ -4,6 +4,12 @@ layout: default
 
 <section class="archive">
 {% for post in site.tags.schedule %}
+{% if forloop.first %}
+
+<div class="archive-item fadeInDown animated">
+  <h2>{{ post.date | date: '%Y' }}</h2>
+  <div>
+{% else %}
 {% unless post.next %}
 
   {% unless forloop.first %}
@@ -37,6 +43,7 @@ layout: default
 
 {% endif %}
 {% endunless %}
+{% endif %}
 
   <article>
     <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title }}</a>

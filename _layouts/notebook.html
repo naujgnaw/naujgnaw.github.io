@@ -5,6 +5,12 @@ title: not e book
 
 <section class="archive">
 {% for post in site.tags.notebook %}
+{% if forloop.first %}
+
+<div class="archive-item fadeInDown animated">
+  <h2>{{ post.date | date: '%Y' }}</h2>
+  <div>
+{% else %}
 {% unless post.next %}
 
   {% unless forloop.first %}
@@ -38,6 +44,7 @@ title: not e book
 
 {% endif %}
 {% endunless %}
+{% endif %}
 
   <article>
     <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title }}</a>
