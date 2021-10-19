@@ -27,10 +27,12 @@ title: a random thought
   </div>
   {% endunless %}
 
+{% if year != next_year %}
   <div class="archive-item fadeInDown animated">
     <h2>{{ post.date | date: '%Y' }}</h2>
     <div>
 
+{% endif %}
 {% endunless %}
 
   <article>
