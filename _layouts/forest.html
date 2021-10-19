@@ -21,7 +21,6 @@ title: pickup artist
 {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
 {% capture next_year %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 
-{% if year != next_year %}
 
   {% unless forloop.first %}
     </div>
@@ -32,7 +31,6 @@ title: pickup artist
     <h2>{{ post.date | date: '%Y' }}</h2>
     <div>
 
-{% endif %}
 {% endunless %}
 
   <article>
