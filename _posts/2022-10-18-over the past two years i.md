@@ -8,4 +8,4 @@ over the past 2 years i :
 - no participation in clubs
 - no (new?) friends
 - stepped into the world of weeebs
-- ...but found something interesting（常常）. BIG SUCCESS 
+- ...but found something interesting (sometimes). BIG SUCCESS 
