@@ -1,8 +1,7 @@
 ---
 tag: notebook
 ---
-# topics.
-over the past 2 years i :
+# over the past 2 years i :
 - weeped a lot
 - learned nothing valuable enough
 - no participation in clubs
