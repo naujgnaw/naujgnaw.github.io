@@ -1,5 +1,5 @@
 ---
-tag: notes
+tag: notebook
 ---
 # topics.
 over the past 2 years i :

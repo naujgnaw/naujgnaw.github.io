@@ -1,5 +1,5 @@
 ---
-tag: notes
+tag: notebook
 ---
 # topics.
 
