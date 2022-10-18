@@ -17,5 +17,17 @@ github pages 是静态页面，不支持 post 方法。。。
 <button id='start-now' onclick="atoast()">开启今日提醒</button>
 <br>很好。
 <h1>TODO</h1>
-</body>
 做一个 uwp 应用，赚很多钱。哈哈
+<br>
+<br>
+<h1>后续</h1>
+我转专业了
+<br>
+大概是跟面试官提了这件事，或者是我英语比较好，或者是我比较王之自信，或者是学积分
+<br>
+反正如你所见 我现在也是cs的学生啦。哈哈。
+<br>
+<br>
+怎么感觉突然没有了动力。。。
+</body>
+
